@@ -10,7 +10,7 @@ def solicitar_url_imagen():
   """
   Esta función solicita al usuario que introduzca la URL de una imagen en GitHub.
 
-  Parámetros: No recibe parámetros.
+  Argumento: No recibe parámetros.
 
   Valor de retorno: Devuelve la URL de la imagen en GitHub ingresada por el usuario como una cadena de texto.
   """
@@ -21,8 +21,7 @@ def descargar_imagen_desde_github(url_imagen):
     """
     Descarga una imagen desde una URL de GitHub y la carga como un objeto de imagen utilizando las bibliotecas requests y Pillow (PIL).
     
-    Parámetros:
-        - url_imagen: URL de la imagen en GitHub que se desea descargar (cadena de texto).
+    Argumento: url_imagen: URL de la imagen en GitHub que se desea descargar (cadena de texto).
     
     Valor de retorno:
         Devuelve la imagen descargada desde la URL de GitHub como un objeto de imagen de la biblioteca PIL (Pillow).
